@@ -1,0 +1,22 @@
+- model: course.Course
+  pk: 1
+  fields:
+    Course_id: "001"
+    Course_name : "mod"
+    Teacher_name: "tee"
+
+- model: course.Course
+  pk: 2
+  fields:
+    Course_id: "002"
+    Course_name : "aum"
+    Teacher_name: "do"
+
+- model: course.Course
+  pk: 1
+  fields:
+    Course_id: "005"
+    Course_name :  "sun"
+    Teacher_name: "yatee"
+
+

@@ -1,0 +1,16 @@
+
+<h1>Search for a Course</h1>
+    <form method="get">
+        <input type="text" name="course_id" >
+        <button type="submit">Search</button>
+    </form>
+
+    <h2>Search Results</h2>
+   
+        {%for course in mod%}
+    <p>{{course.Course_id}} -  {{course.Course_name}} - {{course.Teacher_name}} - </p>
+        
+        {% endfor %}
+    
+
+

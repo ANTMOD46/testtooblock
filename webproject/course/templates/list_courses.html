@@ -1,0 +1,10 @@
+<h1>Course_list <h1>
+    {%for course in mod%}
+    <p>{{course.Course_id}} -  {{course.Course_name}} - {{course.Teacher_name}} - 
+        <a href="{% url 'course-update' course.Course_id %}">Update Course</a>
+        <a href="{% url 'course-delete' course.Course_id %}">Delete Course</a>
+    {% endfor%}
+    </p>
+
+
+
